@@ -1,0 +1,44 @@
+[
+{
+  "directory": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/build/src",
+  "command": "C:\\Users\\odtgo\\mingw64\\bin\\g++.exe  @CMakeFiles\\set.dir\\includes_CXX.rsp -g -o CMakeFiles\\set.dir\\tbitfield.cpp.obj -c C:\\Users\\odtgo\\Desktop\\lab\\mp2-lab1-set\\src\\tbitfield.cpp",
+  "file": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/src/tbitfield.cpp",
+  "output": "src/CMakeFiles/set.dir/tbitfield.cpp.obj"
+},
+{
+  "directory": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/build/src",
+  "command": "C:\\Users\\odtgo\\mingw64\\bin\\g++.exe  @CMakeFiles\\set.dir\\includes_CXX.rsp -g -o CMakeFiles\\set.dir\\tset.cpp.obj -c C:\\Users\\odtgo\\Desktop\\lab\\mp2-lab1-set\\src\\tset.cpp",
+  "file": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/src/tset.cpp",
+  "output": "src/CMakeFiles/set.dir/tset.cpp.obj"
+},
+{
+  "directory": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/build/samples",
+  "command": "C:\\Users\\odtgo\\mingw64\\bin\\g++.exe  @CMakeFiles\\sample_prime_numbers.dir\\includes_CXX.rsp -g -o CMakeFiles\\sample_prime_numbers.dir\\sample_prime_numbers.cpp.obj -c C:\\Users\\odtgo\\Desktop\\lab\\mp2-lab1-set\\samples\\sample_prime_numbers.cpp",
+  "file": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/samples/sample_prime_numbers.cpp",
+  "output": "samples/CMakeFiles/sample_prime_numbers.dir/sample_prime_numbers.cpp.obj"
+},
+{
+  "directory": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/build/gtest",
+  "command": "C:\\Users\\odtgo\\mingw64\\bin\\g++.exe  @CMakeFiles\\gtest.dir\\includes_CXX.rsp -g -o CMakeFiles\\gtest.dir\\gtest-all.cc.obj -c C:\\Users\\odtgo\\Desktop\\lab\\mp2-lab1-set\\gtest\\gtest-all.cc",
+  "file": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/gtest/gtest-all.cc",
+  "output": "gtest/CMakeFiles/gtest.dir/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/build/test",
+  "command": "C:\\Users\\odtgo\\mingw64\\bin\\g++.exe  @CMakeFiles\\test_set.dir\\includes_CXX.rsp -g -o CMakeFiles\\test_set.dir\\test_main.cpp.obj -c C:\\Users\\odtgo\\Desktop\\lab\\mp2-lab1-set\\test\\test_main.cpp",
+  "file": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/test/test_main.cpp",
+  "output": "test/CMakeFiles/test_set.dir/test_main.cpp.obj"
+},
+{
+  "directory": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/build/test",
+  "command": "C:\\Users\\odtgo\\mingw64\\bin\\g++.exe  @CMakeFiles\\test_set.dir\\includes_CXX.rsp -g -o CMakeFiles\\test_set.dir\\test_tbitfield.cpp.obj -c C:\\Users\\odtgo\\Desktop\\lab\\mp2-lab1-set\\test\\test_tbitfield.cpp",
+  "file": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/test/test_tbitfield.cpp",
+  "output": "test/CMakeFiles/test_set.dir/test_tbitfield.cpp.obj"
+},
+{
+  "directory": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/build/test",
+  "command": "C:\\Users\\odtgo\\mingw64\\bin\\g++.exe  @CMakeFiles\\test_set.dir\\includes_CXX.rsp -g -o CMakeFiles\\test_set.dir\\test_tset.cpp.obj -c C:\\Users\\odtgo\\Desktop\\lab\\mp2-lab1-set\\test\\test_tset.cpp",
+  "file": "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/test/test_tset.cpp",
+  "output": "test/CMakeFiles/test_set.dir/test_tset.cpp.obj"
+}
+]

@@ -1,0 +1,2 @@
+C:\Users\odtgo\mingw64\bin\ar.exe qc ..\lib\libset.a CMakeFiles/set.dir/tbitfield.cpp.obj CMakeFiles/set.dir/tset.cpp.obj
+C:\Users\odtgo\mingw64\bin\ranlib.exe ..\lib\libset.a

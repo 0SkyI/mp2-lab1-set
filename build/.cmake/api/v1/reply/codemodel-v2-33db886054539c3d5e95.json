@@ -1,0 +1,152 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-0ed3a50c56e69a8324fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "samples",
+					"jsonFile" : "directory-samples-Debug-3f0163133d720a5752c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "samples",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Debug-c9be0ce14f192663c70d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "gtest",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-4e85d4a5ed4eb51a2126.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "set",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Debug-195642680a15c2fe2060.json",
+					"name" : "gtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sample_prime_numbers::@fd003194bc69d7fb51e8",
+					"jsonFile" : "target-sample_prime_numbers-Debug-df8c8f3f1d895ddb1cb8.json",
+					"name" : "sample_prime_numbers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "set::@145eef247bfb46b6828c",
+					"jsonFile" : "target-set-Debug-807a6afaebbba72f498e.json",
+					"name" : "set",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_set::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test_set-Debug-a75e5a2beeea5a730e81.json",
+					"name" : "test_set",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/odtgo/Desktop/lab/mp2-lab1-set/build",
+		"source" : "C:/Users/odtgo/Desktop/lab/mp2-lab1-set"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}
