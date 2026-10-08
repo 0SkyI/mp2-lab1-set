@@ -37,7 +37,7 @@ TSet::operator TBitField()
 
 int TSet::GetMaxPower(void) const // получить макс. к-во эл-тов
 {
-    return FAKE_INT;
+    return MaxPower;
 }
 
 int TSet::IsMember(const int n) const // элемент множества?
@@ -76,33 +76,42 @@ int TSet::operator!=(const TSet &s) const // сравнение
 
 TSet TSet::operator+(const TSet &s) // объединение
 {
-    TSet tmp(bf | s.bf);
+    TSet tmp(bf | s.bf);          // характеристические векторы OR-ятся
+    tmp.MaxPower = (MaxPower > s.MaxPower) ? MaxPower : s.MaxPower; // берём макс. универс
     return tmp;
 }
 
 TSet TSet::operator+(const int Elem) // объединение с элементом
 {
-    TSet tmp(bf);
+    if (Elem < 0 || Elem >= MaxPower) { // элемент должен быть из того же универса
+        throw Elem;
+    }
+    TSet tmp(*this);
     tmp.InsElem(Elem);
     return tmp;
 }
 
 TSet TSet::operator-(const int Elem) // разность с элементом
 {
-    TSet tmp(bf);
+    if (Elem < 0 || Elem >= MaxPower) { // элемент должен быть из того же универса
+        throw Elem;
+    }
+    TSet tmp(*this);
     tmp.DelElem(Elem);
     return tmp;
 }
 
 TSet TSet::operator*(const TSet &s) // пересечение
 {
-    TSet tmp(bf & s.bf);
+    TSet tmp(bf & s.bf);          // характеристические векторы AND-ятся
+    tmp.MaxPower = (MaxPower > s.MaxPower) ? MaxPower : s.MaxPower;
     return tmp;
 }
 
 TSet TSet::operator~(void) // дополнение
 {
-    TSet tmp(~bf);
+    TSet tmp(~bf);                // инвертируем весь характеристический вектор
+    tmp.MaxPower = MaxPower;      // универс остаётся прежним
     return tmp;
 }
 
@@ -110,6 +119,8 @@ TSet TSet::operator~(void) // дополнение
 
 istream &operator>>(istream &istr, TSet &s) // ввод
 {
+    istr >> s.bf; // читаем характеристический вектор как битовое поле
+    return istr;
 }
 
 ostream& operator<<(ostream &os, const TSet &s) // вывод
