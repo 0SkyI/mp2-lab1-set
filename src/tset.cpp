@@ -129,7 +129,7 @@ istream &operator>>(istream &istr, TSet &s) // ввод
         s.InsElem(tmp);
         do {
             istr >> ch;
-        } while ((ch != ',') || (ch != '}'));
+        } while ((ch != ',') && (ch != '}'));
     } while (ch != '}');
     return istr;
 }
@@ -138,9 +138,12 @@ ostream& operator<<(ostream &os, const TSet &s) // вывод
 {
     os << '{';
     int n = s.MaxPower;
-    for (int i = 0; i < n; i++) {
+    bool first = true;
+    for (int i = 1; i < n; i++) {
         if (s.IsMember(i)) {
-            os <<' ' << i << ',';
+            if (!first) os << ", ";
+            os << i;
+            first = false;
         }
     }
     os << "}";
